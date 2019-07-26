@@ -16,19 +16,10 @@ class App extends Component {
       <Router>
         <Switch>
           <Route
-            path="/status"
             render={() => {
-              changeFavicon('/images/canaryLogo.png');
+              changeFavicon('/images/udc.png');
               return (
-                <iframe src="https://chromebook777production.statuspage.io/" />
-              );
-            }}
-          />
-          <Route
-            render={() => {
-              changeFavicon('/images/chromebotLogo.png');
-              return (
-                <iframe src="https://chromebot-canary-and-chromebot.weebly.com/" />
+                <iframe src="https://ud999.bubbleapps.io/" />
               );
             }}
           />
