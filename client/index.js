@@ -19,7 +19,7 @@ class App extends Component {
             render={() => {
               changeFavicon('/images/udc.png');
               return (
-                <iframe src="https://ud999.bubbleapps.io/" />
+                <iframe is="x-frame-bypass" src="https://ud999.bubbleapps.io/" />
               );
             }}
           />
